@@ -14,7 +14,7 @@ import com.wjfsryx.readlinglist.repository.BookRepository;
 
 
 @Controller
-@RequestMapping("/")
+@RequestMapping("/readingList")
 public class ReadingListController {
 
 	private BookRepository bookRepository;
